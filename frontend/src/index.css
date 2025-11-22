@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* Reset and global styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Body styling */
+body {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Remove link underline */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove list styles */
+ul {
+  list-style: none;
+}
+
+/* Basic container class if needed */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}

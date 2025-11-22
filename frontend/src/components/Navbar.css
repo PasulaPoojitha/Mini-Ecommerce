@@ -1,0 +1,130 @@
+.navbar {
+  background-color: #000080;
+  padding: 18px 40px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.nav-item {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* Cart wrapper */
+.cart-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.cart-icon {
+  font-size: 22px;
+  color: #fff;
+}
+
+/* Cart badge */
+.cart-badge {
+  position: absolute;
+  top: -6px;
+  right: -12px;
+  background: red;
+  color: #fff;
+  font-size: 12px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+/*********************************
+      PROFILE + DROPDOWN
+*********************************/
+
+/*********************************
+      PROFILE + DROPDOWN (FINAL)
+*********************************/
+
+.profile-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0;  /* FIX alignment */
+}
+
+.profile-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle; /* FIX alignment */
+  margin-right:-25px;
+}
+
+/* Dropdown tooltip */
+.profile-tooltip {
+  position: absolute;
+  top: 40px;   /* perfect alignment under icon */
+  right: 0;
+  background: #fff;
+  color: #000;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+  width: 150px;
+  display: none;
+  z-index: 5000;
+}
+
+
+
+
+/* Keep dropdown open when hovering icon or tooltip */
+.profile-wrapper:hover .profile-tooltip,
+.profile-tooltip:hover {
+  display: block;
+}
+
+/* Email text */
+.email-text {
+  font-size: 14px;
+  margin-bottom: 10px;
+  word-break: break-word;
+}
+
+/* Logout button */
+.logout-btn {
+  width: 100%;
+  padding: 8px;
+  background: #d9534f;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.logout-btn:hover {
+  background: #c9302c;
+}

@@ -1,0 +1,83 @@
+/* src/pages/Auth.css - Simple + Amazon-style buttons */
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.auth-page {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 16px;
+  background: #f7f7f7;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 420px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 28px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+.auth-card h2 {
+  margin-bottom: 18px;
+  font-size: 22px;
+  color: #111;
+}
+
+.auth-form label {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: #333;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 6px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+}
+
+.auth-error {
+  margin: 10px 0;
+  color: #b12704;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.auth-btn {
+  margin-top: 12px;
+  width: 100%;
+  padding: 12px;
+  background: #f0c14b; /* Amazon yellow */
+  border: 1px solid #a88734;
+  border-radius: 6px;
+  color: #111;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.auth-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.auth-footer {
+  margin-top: 14px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.auth-footer a {
+  color: #007185;
+  text-decoration: none;
+  font-weight: 600;
+}

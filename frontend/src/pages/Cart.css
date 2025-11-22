@@ -1,0 +1,152 @@
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  padding-top: 70px; /* pushes page down below navbar */
+}
+
+.cart-container {
+  width: 800px;
+  margin: 20px auto;       /* this centers it */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.cart-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.cart-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cart-card {
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+  width:500px;
+}
+
+.cart-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.cart-details {
+  flex: 1;
+}
+
+.cart-desc {
+  color: #666;
+  font-size: 14px;
+  margin: 5px 0 12px;
+}
+
+/* Qty + Delete Row */
+.qty-delete-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.qty-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #f0c14b;
+  padding: 5px 12px;
+  border-radius: 20px;
+}
+
+.qty-box button {
+  border: none;
+  background: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.qty-box span {
+  font-weight: 600;
+}
+
+/* delete button */
+.delete-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #555;
+  font-size: 15px;
+}
+
+.delete-btn:hover {
+  color: #222;
+}
+
+.delete-icon {
+  font-size: 18px;
+  color: #666;
+}
+
+.price {
+  color: #b12704;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Billing summary */
+.bill-box {
+  width:500px;
+  background: #fff;
+  margin-top: 25px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bill-box h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.bill-row,
+.bill-total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.bill-total span:last-child {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.checkout-btn {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  border: none;
+  background: #f0c14b;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.checkout-btn:hover {
+  background: #e2b044;
+}
